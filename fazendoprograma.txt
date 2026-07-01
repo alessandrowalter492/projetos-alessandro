@@ -1,0 +1,822 @@
+-------------CICLO DE DESENVOLVIMENTO DE SOFTWARE---------------  21/05/2026
+
+ESTAGIO 1 - IDEALIZAÇÃO, A IDEIA BASE E QUAIS AS NECESSIDADES 
+QUE O SOFWARE DEVE SOLUCIONAR
+
+ESTAGIO 2 - ESPECIFICAÇÃO DE REQUISITOS - ENTENDER AS NECESSIDADES
+E ESPECIFICAR O QUE O SOFTWARE DEVE RESPONDER, PARA NAO HAVER COBRANÇA
+EXTRA E NEM ABUSO DE PROGRAMAÇÃO, APROVEITAR PARA DAR PRAZO
+
+ESTAGIO 3 - VALIDAÇÃO DE SOLUÇÃO - APRESENTAR E VALIDADE SE AQUILO É
+O QUE REALMENTE O CLIENTE QUER, RESUMO ANTES DE COMEÇAR TESTES
+
+ESTAGIO 4 - DESENVOLVIMENTO E TESTES - APOS TODOS OS ESTAGIOS COMPLETOS
+JA SEI O QUE DEVO FAZER COM PRAZO E TUDO QUE DEVO ENTREGAR, INICO DE TESTES
+E DESENVOLVIMENTO
+
+ESTADIO 5 - IMPLATAÇÃO E ENTREGA - SOFTWARE MONTADO, FAZER INSTALAÇAO DE PROGRAMA
+OU SUBIR SITE PRA NUVEM, MOMENTO DE TESTES E VE SE TUDO ESTA OK
+
+---------------------------------------------------------------------
+SEMPRE ENTENDER BEM TODOS OS PASSOS E TODAS AS NECESSIDADES, ANTES DE COMEÇAR
+A DESENVOLVER PARA NAO HAVER BRECHAS NEM DUVIDAS. TUDO DEVE ESTAR PERFEITAMENTE LAPIDADO
+ANTES DE INICAR O DESENVOLVIMENTO
+---------------------------------------------------------------------
+---------------------APRENDER A RESOLVER PROBLEMAS ATRAVES DA ANALISE CRITICA--------------
+SABER ANALISA E RESOLVER O PROBLEMA É MAIS IMPORTANTE QUE DECORAR COMANDOS
+
+--------------------------------------------------------------
+O QUE SAO ALGORITIMOS E COMO MONTAR ELES DO ZERO
+
+O QUE É UM ALGORITMO ?
+UM ALGORITIMO É SIMPLESMENTE UMA SÉRIE DE INSTRUÇÕES
+A SEREM SEGUIDAS PARA RESOLVER UM PROBLEMA
+
+QUANDO ALGORITIMOS DEVEM SER CRIADOS?
+SEMPRE QUE QUEREMOS MONTAR
+UMA SEQUENCIA DE PASSOS NECESSARIOS PARA SOLUCIONAR UM PROBLEMA
+
+QUAL ESTRATEGIA PARA MONTAR UM ALGORITIMO ?
+-----MÉTODO 5Q'S-----
+fazer analise critica do problema e descobrir (tente explicar este problema pra voce mesmo em voz altar e peça mais impormações
+ate entender completamente o problema)
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS?
+2; O QUE DEVO FAZER COM ESTES DADOS?
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA?
+4; QUAL É O RESULTADO ESPERADO ?
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+
+EXEMPLO
+LIGAR PARA UMA PESSOA 
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS?
+um telefone, o numero de telefone
+
+2; O QUE DEVO FAZER COM ESTES DADOS?
+devo usar o celular pra discar para a pessoa
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA?
+caso a pessoa nao atenda, devo deixa uma mensagem de ligue de volta
+
+4; QUAL É O RESULTADO ESPERADO ?
+que eu consiga falar com a pessoa
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+passo 1: pegar o telefone. passo 2: destravar e verificar sinal. passo 3: abrir app de ligaçao e realizar a chamada
+
+------------------DEVO SEMPRE ANALISAR A SEQUENCIA DE PASSOS A SER FEITA A FIM DE RESOLVER O PROBLEMA, SEJA ELE QUAL FOR---------------
+
+EXEMPLO 2 
+VALOR POR HORA
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS?]
+valores por mes e horarios de trabalho
+
+2; O QUE DEVO FAZER COM ESTES DADOS
+calcular o valor/hora utilizando divisao basica (horas trabalhadas por salario mensal)
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA?
+os valores devem ser entregues apenas em valores e horarios
+
+4; QUAL É O RESULTADO ESPERADO ?
+o valor por hora que o funcionario recebe
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+perguntar quantos a pessoa ganha mensal, perguntar horas trabalhadas por mes, divisao basica dos valores
+
+EXEMPLO 3 
+CHUTE UM NUMERO (ESCREVER UM PROGRAMA QUE GERE UM VALOR DE 1 A 10 E PERMITIR AO USUARIO CHUTAR ATE ACERTAR. O PROGRAMA DEVE INFORMAR SE FOI ABAIXO O ACIMA DO VALOR CORRETO)
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS?
+Uum valor aleatorio de 1 a 10 e o chute do usuari
+
+2; O QUE DEVO FAZER COM ESTES DADOS?
+pegar o valor aleatorio de 1 a 10 e comparar com o valor chutado
+
+se o chute for maior ou menor alertar o usuario e deixar lo jogar novamente ate que ele acerte
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA?
+o programa nao deve ser finalizado ate o numero ser acertado, usuario deve ter chutes especificos
+
+4; QUAL É O RESULTADO ESPERADO ?
+programa deve identificar que o valor gerado por ele e o chutado pelo usuario sao os mesmoS
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+1; gerar um valor de 1 a 10
+2; armazenar esse valor
+3; receber um chute do usuario
+4; comparar o chute do usuario com o valor aleatorio gerado
+5; se o chute for maior exibir a mensagem "chutou alto" e se for abaixo exibir a mensagem chutou baixo
+e entao voltar ao passo 3
+6; se o chute for igual ao valor gerado exibir mensagem acertou e voltar ao passo 1
+
+-------------------------------------------4 CONCEITOS OBRIGATORIOS QUE DEVO DOMINAR PRA RESOLVER UM PROBLEMA---------------- 22/05/2026
+DOMINAR ESTES ALGORITMOS AJUDARA MUITO A CRIAR ALGORITMOS
+
+
+1 VARIAVEIS - TODOS OS TIPOS DE DADOS QUE DEVEM SER GUARDADAS NA MEMORIA DO PC PRA SER USADA DEPOIS
+TODOS OS VALORES QUE VARIAM (EXEMPLO EM UM PROBLEMA DE VALOR POR HORA EXISTEM 3 VARIAVEIS SALARIO MENSAL, HORAS TRABALHADAS E VALOR HORA)
+
+2 CONDICIONAIS- MOMENTO QUE UMA DECISAO É TOMADA COM BASE EM UMA OUTRA CONDIÇÃO
+
+3 LAÇOS DE REPETIÇÃO - AÇOES QUE ACONTECEM REPETIDAMETE PARA CHEGARNO RESULLTADO(COMUM QUE TENHA UM PONTO INICIAL E UM
+PONTO NFINAL OU UMA CONDIÇÃO QUE LEVA AO FINAL DA REPETIÇÃO EX: NADE ATE CHEGAR AO OUTRO LADO DA PISCINA, DEIXE A TORNEIRA
+ABERTA ATE O COPO ENCHER DE AGUA) MUITO UTIL PRA AUTOMATIZAÇÃO!!!
+
+4 COLEÇÕES - HAVERA NECESSIDADE DE TRABALHAR COM COLEÇÕES DE VALORES QUE ESTAO ARMAZENADOS EM UM LOCAL
+EX: CONVIDADOS = ['JEFF', 'AMANDA', 'CAROL'] OU NUMEROS_PREMIADOS = [12,53,664,34]]
+SERVE PARA ARMAZENAR COLEÇAO DE VALORES EM UM LOCAL SO, PODE SER IGUAL OU NAO
+
+
+-------------------------------------------- PSEUDOCODIGOS---------------------- 02/06/2026
+CRIANDO SOLUÕES EM PSEUDOCODIGO DO BASICO AO AVANÇADO
+. PSEUDOCODIGO
+. FLUXOGRAMA       
+
+PSEUDOCODIGO - É A DESCRIÇÃO DOS PASSOS NECESSARIOS PARA RESOLVER UM FETERMINADO PROBLEMA EM UMA LINGUAGEM
+NATURAL, QUE NAO ESTA LIGADA DIRETAMENTE A UMA LINGYAGEM DE PROGRAMAÇÃO
+
+(PSEUDOCODIGO NAO É UMA LINGUAGEM DE PROGRAMAÇÃO E UMA LINGUAGEM NATURAL QUE PODE SER LIGA
+POR QUALQUER PESSOA. NAO É ALGO PADRONIZADO PODE TER VARIAS VARIAVEIS. NAO SERA PROCESSSADOR
+POR UM COMPUTADOR. NAO SUBSTITUI A LINGUAGEM DE PROGRAMÇÃO, ELE DEVE SER
+USANDO APENAS PARA CRIAR UMA LOGICA E DEPOIS ESCRITO EM LLINGUAGEM DE PROGRAMAÇÃO)
+
+- TODAS AS LINGUAGEM PARA PROGRAMAÇÕES SAO USADAS COM PALAVRAS EM INGLES
+
+- USANDO PSEUDOCODIGO REFAZER UM PROBLEMA QUE É VALORXHORA (CRIE UM PROGRAMA QUE RETORNE O VALOR QUE 
+O FUNCIONARIO GANHA COM BASE NO SEU SALARIO MENSAL E HORAS TRABALHADAS AO MES) REUTILIAZANDO METODOS 5Q'S
+FAÇA ISSO ATE COMPREENDER COMPLETAMENTE O PROBLEMA
+
+
+SINTAXE - PALAVRAS CHAVE QUE SIGNIFICA ALGO ESPECIFICO EM LINGUAGENS DE PROGRAMAÇÃO
+
+iterar (passar por cada item dentro de uma coleção)
+
+INPUT - palavra usada para receber dados do usuario
+PRINT - exibir o resultado no console
+IF CONDIÇÃO - condicional que controla se algo deve ou nao ser feito
+ELSE - clausula a ser executada caso nenhuma condicional if seja executada
+LOOP DE X A Y - laço de repetição que ira iterar de X a Y
+LOOP X EM Y - laço de repetição que ira iterar X em uma coleção Y
+WHHILE X - laço de repetição que acontecerá enquanto um condição for verdadeira
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ?
+valores por mes e horarios de trabalho
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+calcular o valor/hora utilizando divisao basica (horas trabalhadas por salario mensal)
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+os valores devem ser entregues apenas em valores e horarios
+
+4; QUAL É O RESULTADO ESPERADO ?
+o valor por hora que o funcionario recebe
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+INPUT salario_mensal
+INPUT horas_trabalhadas_por_mes
+valor_hora = salario_mensal / horas_trabalhadas_por_mes
+print valor_hora
+
+EXEMPLO---------
+Crie um programa que pede ao usuario seu nome e depois
+o da boas vindas dizendo "X seja-bemvinfo". onde X é o nome do usuario
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ?
+nome do usuario
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+apos receber o nome do usuario eu devo exibir a mensagem que diz: usuario + seja bem vindo
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+é necessario o nome do usuario para a mensagem se eu nao tenho nome a mensagem nao funcionara corretamente
+
+4; QUAL É O RESULTADO ESPERADO ?
+uma mensaggem que exibi o nome do usuario + a mensagem seja bem vindo
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+input nome_do_usuario
+print nome_do_usuario + "seja bem vindo"
+
+EXEMPLO---------
+Crie um programa que recebe dois valores e exibe qual é maior e qual é menor entre eles
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ? 
+os dois valores a serem considerados
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+o programa devera calcular qual é maior e qual é menor para exibir a mensagem na tela dando o resultado esperado
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+devo possuir 2 numeros se nao nao tem como haver comparação
+
+4; QUAL É O RESULTADO ESPERADO ?
+que o programa considere os dois valores e mostre ao usuario qual valor é menor e qual é maior
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+input primeiro_valor
+input segundo_valor
+if primeiro_valor > segundo valor
+  print "o primeiro valor é maior"
+           OU
+if primeiro_valor < segundo valor
+  print "o segundo valor é maior"
+else
+   print "os numeros são iguais"
+
+
+EXEMPLO------------
+Crie um programa que recebe um numero e imprime seu fatorial
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ?
+o numero
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+apos receber um numero devo o multiplicar por todos seus
+antecessores feito isso devo pegar este resultado e exibi-lo
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+os numeros devem ser inteiros e positivos
+
+4; QUAL É O RESULTADO ESPERADO ?
+que o fatorial do numero exibido seja exibido
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+input numero
+if numero < 0
+   print "digite apenas numeros positivos"
+fatoral = 1
+loop de 1 a numero
+    fatorial = fatoral *numero
+print fatorial
+
+*tempo no video "1:09"
+
+03/06/2026
+
+EXEMPLO------------------
+Some o valores da lista ; Dados uma coleção de dados "idades" (15,26,75,34,23)
+imprima na tela a soma destes valores
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ?
+a lista de idades
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+apos receber a lista de idades devo somar cada idade com a idade anterior
+ate chegar ao final da lista e exibir a soma de todas as idades
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+apenas os valores contidos na lista devem ser adicionados
+
+4; QUAL É O RESULTADO ESPERADO ?
+é esperado que a soma de todas as idades seja exibido
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+idade=(15,26,75,34,23)
+total=0
+loop idade em idades
+    total = total + idade
+print total
+
+EXEMPLO-----------------
+Chute um numero: Escreva um programa qe ao iniciar gera um valor aleatorio de 1 a 10 e permite que o usuario chute um
+numero ate que o valor aleatorio gerado no inicio do programa seja chutado corretamento. O programa deve
+informar caso o chute tenha sido acima, abaixo ou igual ao valor aleatorio geraado no inicio do programa
+
+1; QUAIS SAO OS DADOS DE ENTRADA NECESSARIOS ?
+um valor aleatorio de 1 a 10 e o valor de chute do usuario
+
+2; O QUE DEVO FAZER COM ESTES DADOS ?
+apos ter gerado e armazenado o valor aleatorio devo pedir que o usuario chuite um numero ao receber o chute do
+usuario devo comparar se o chute é maior menor ou igual ao valor gerado e exibir a mensagem correspondente a comparação
+
+3; QUAIS SAO AS RESTRIÇÕES DESTE PROBLEMA ?
+o valor aleatorio deve estar entre 1 e 10
+
+4; QUAL É O RESULTADO ESPERADO ?
+exibir na tela uma das 3 mensagaem
+chute é maior que o valor gerado
+chute é menor que o valor gerado
+acertou o chute
+
+5; QUAL É A SEQUENCIA DE PASSOS A SER FEITAS PARA CHEGAR AO RESULTADO ESPERADO ?
+input valor_aleatorio entre 1 a 10
+acertou = falso
+while acertou = falso
+    input chute
+    if chute > valor_aleatorio
+       print "chute é maior que o valor gerado "
+    if chute < valor_aleatorio
+       print "Chute é menor que o valor gerado"
+    if chute =  valor_aleatorio
+       print "acertou o chute"
+       acertou = verdadeiro
+    else 
+       print "voce chutou um valor invalido"
+
+
+04/06/2026
+
+
+FLUXOGRAMAS: fluxograma é uma representação grafica de um algoritimo
+
+
+Vantagens
+FLUXOGRAMA PODEM SER MAIS INTUITIVOS DE ENTENDER PARA ALGUMAS PESSOAS
+
+FLUXOGRAMA PODE ABRIR CAMINHO PARA QUE PESSOAS NAO TECNICAS ENTRE NO PROCESSO DE DESINGN DA SOLUÇÃO
+
+CASO TENHA UM PROCESSO ALTAMENTE COMPLEXO, TENTAR O QUEBRAR EM PASSOS MENORES EM UM FLIXOGRAMA
+PODE DEIXAR A LOGICA MAIS EXPLICITA E DE FACIL COMPREENSAO
+
+Desvantagens
+CASO TENHA UM PROCESSO ALTAMENTO COMPLEXO TENTA O QUEBRAR EM PASSOS EM UM FLUXOGRAMA PODE LEVAR MUITO MAIS TEMPO QUE O PSEUDOCOGIDO
+
+O NIVEL DE DETALHE DA INFORMAÇÃO QUE É COLOCADA EM CADA CAMPO PODE TER QUE SER SIMPLIFICADA PARA DEIXAR O FLUXOGRAMA LEGIVEL
+
+AO TENTAR REPRESENTAR A LOGICA DE UM PROGRAMA MAIOR TERA UM FLIXOGRAMA POSSIVELMENTE GIGANTESCO E QUE NAO É FACILMENTE LIDO A NAO SER
+QUE TENHO MULTIPLOS MONITORES OU IMPRIMA O FLUXOGRAMA EM TAMANHOS GRANDES O SUFICIENTE PARA SEREM LIDOS EM UMAS MESA DE TRABALHO POR EXEMPLO
+
+05/02/2026
+TIPOS DE VARIAVEIS
+
+numeros inteiros (int) (EX idade : 15)
+numeros decimais(float) (EX nota : 8,5
+textos (string)  (EX nome_completo ' Alessandro Walter')
+booleanos(bol) (tomada de decisao (True or False) EX pode_entrar = true) letras de True or False devem sempre começar em maiusculo
+
+	PRIMEIRO TESTE
+
+
+estuda_quantas_horas_de_ingles = input (' voce estuda quantas horas de ingles por dia? ')
+estuda_quantas_horas_de_programaçao = input (' e de programaçao? ')
+voce_estuda = int(estuda_quantas_horas_de_ingles) + int (estuda_quantas_horas_de_programaçao)
+print (voce_estuda)
+
+
+        CORREÇÃO E ADIÇÃO DE TEXTO JUNTO AO RESULTADO
+
+
+estuda_quantas_horas_de_ingles = input (' voce estuda quantas horas de ingles por dia? ')
+estuda_quantas_horas_de_programaçao = input (' e de programaçao? ')
+voce_estuda = int(estuda_quantas_horas_de_ingles) + int (estuda_quantas_horas_de_programaçao)
+print ("voce estudou por ", voce_estuda, "horas ")
+
+
+        MAIS UM TESTE
+
+
+tamanhho_da_pica_s_a_cabeca = input (' tem quanto de pica fora o cabeçote? ')
+e_a_cabeca = input ('e com o cabeçote? ')
+tamanhho_total = float(tamanhho_da_pica_s_a_cabeca) + float(e_a_cabeca)
+print ('tu tem', tamanhho_total, 'de piroca')
+
+
+       	OUTRO TESTE
+
+
+dias_por_semana = input ('quantos dias tem por semana ? ')
+dias_por_mes = input ('semanas tem em um mes? ')
+meses_por_ano = input (' quantos meses tem em um ano? ')
+valor_total = int(dias_por_mes) * int(dias_por_semana) * int(meses_por_ano)
+print ('o ano deve ter', valor_total, 'de dias')
+
+       MAIS UM TESTE ESSE FOI FODA
+
+NUMERO_1 = input ('digite o primeiro numero : ')
+numero_2 = input ('digite o numero que sera adicionado a ele:')
+numero_3 = input ('digite o numero que sera multuplicado ao resultado da soma anterior:')
+numero_4 = input ('digite o numero que sera dividido pelo resultado anterior:')
+numero_5 = input ('digite o numerto que sera substraido pelo resultado anterior:')
+valor_total = ((float(NUMERO_1) + float (numero_2)) * float(numero_3) / float(numero_4) - float(numero_5))
+
+
+print ('a soma total é de', valor_total, 'esse é o resultado')
+
+       teste calculadora completa
+
+
+print ('bem vindo a calculadora, faça calculo basico de subtração')
+primeiro_numero = input ('digite o primeiro valor para subtraçao: ')
+segundo_numero = input ('digite o segundo valor para subtraçãoo: ')
+valor_total = int(primeiro_numero) - int (segundo_numero)
+print ('seu valor é:', valor_total, ', agora siga para adição')
+
+print ('agora use a de adição: ')
+novo_numero = input ('valor para adição? ')
+novo_valor_total = int(valor_total) + int(novo_numero)
+print ('esse é seu 
+novo valor apos a adição:', novo_valor_total, "obrigado por me usar. agora siga para a de multiplicação")
+
+print ('adicione o valor que deseja multiplicar')
+novoo_numero = input ('valor para multiplicar: ')
+vaalor_total = int (novo_valor_total) * int (novoo_numero)
+print ('valor multiplicado: ', vaalor_total, 'agora seguira para a de divisao' )
+
+print ('adicione o valor final para divisao')
+numero_novo = input ('qual valor deseja realizar a dividao')
+valor_final = int (vaalor_total) / int(numero_novo)
+print ('este é o seu valor final: ', valor_final,'obrigado!')
+print ('viadinho burro precisa de calculadorakkkkkk')
+
+08/06/2026
+
+          teste com programa pra comparar e dar resultado
+
+atraso = int(input('quantas faltas voce tem ?'))
+if atraso >=3:
+    print ('voce esta suspenso')
+elif atraso == 2:
+    print ('voce so tem mais uma chance')
+elif atraso == 1:
+    print ('voce ainda tem duas chances')
+else: 
+    print('pode entrar')
+     
+           teste comparação mais simples
+
+jogo_lol = False
+if jogo_lol == True:
+    print ('jogador de lol')
+else:
+    print ('nao é jogador de lol')
+
+
+
+jogo_lol = input ('voce joga lol s/n? ')
+if jogo_lol == 's':
+    print ('jogador de lol')
+else:
+    print ('nao é jogador de lol')
+
+
+            teste doido
+print ('qual numero é o 3')
+while True:
+    numero_teste = int(input('qual é o numero? '))
+    if numero_teste >=3:
+        print ('acertou')
+    elif numero_teste == 2:
+        print ('adicione mais 1')
+    elif numero_teste ==1:
+        print ('adicione mais 2')
+    else:
+        print ('tente novamente')
+
+           teste basico de comparação de valores
+
+valor_um = int(input('digite o valor 1: '))
+valor_dois = int (input( 'digite o valor 2: '))
+if valor_um > valor_dois:
+    print ('valor um é maior')
+else:
+    print('valor dois é maior')
+
+ 10/06/2026          LAÇOS DE REPETIÇÃO
+basico laço de repetição : ''for item in colecao:  
+                                  #comandos
+-range nunca inclui o ultimo numero
+-range com ''passo'' (1,11,2)
+-1 indica o numero que vai começar,11 indica ate aonde ele vai contar,2 sao os passos no casos ele ira pular de dois em dois numeros
+
+for item in range (2,12,2):
+    print(item  )
+
+nomes = ['alesasndro','anne','regina']
+for nome in nomes:
+    print(nome)
+
+-------------- teste 
+
+idades = [13,13,54,6,4,2,22,55]
+for idade in idades:
+    if idade >=18:
+        print(f'{idade} é maior')
+    else: 
+        print(f'{idade} é menor')
+    
+               teste f fica colado no ' e nao precisa por virgulas
+
+
+nome = input('qual seu nome? ')
+idade = input('qual sua idade? ')
+jogo = input('qual seu jogo favorito? ')
+cidade = input ('onde voce mora? ')
+print(f'seu nome é {nome} e sua idade é {idade} seu jogo favorito é {jogo} e voce mora em {cidade} ?')
+
+             teste com dado do usuario
+
+senhas = input('qual sua senha? ')
+
+if len(senhas) >= 6:
+    print (f' A senha {senhas} possui 6 caracteres')
+else:
+    print (f' A senha {senhas} nao possui 6 caracteres')
+
+            teste ja com a lista
+
+senhas = ['guitarra', 'luva','gozo','alessandro']
+for senha in senhas:
+    if len(senha) >= 6:
+        print (f' A senha {senha} possui 6 caracteres')
+    else:
+        print (f' A senha {senha} nao possui 6 caracteres')
+
+-------------- 11/06/2026 testes apenas
+
+            primeiro teste usando oq ja sei
+
+print ('Seus dados para criar sua conta')
+nome = input (' Digite seu primeiro nome: ')
+idade = int(input (' Digite sua idade: '))
+local = input (' Digite seu local de nascimento: ')
+if idade <=17:
+    print ('voce nao poderar entra, tente novamente aos 18')
+else:
+    print(f'Voce se chama {nome}. Sua idade é {idade}, Voce nasceu em {local}, esta correto? ')
+
+          teste dois LEMBRAR DE SO USAR FOR QUANDO FOR PERCORRER ITENS DE UMA LISTA
+
+
+nome_usuario = (input ('Digite qual deseja ser seu nome de usuario? (Voce deve ter no minimo 8 caracteres de nome de usuario)'))
+
+if len(nome_usuario) <=7:
+        print('seu nome de usuario é muito curto') 
+elif len(nome_usuario) >= 25:
+        print ('Voce esta usando caracteres demais')
+else:
+    print('Seu nome de usuario esta otimo')
+
+         teste novo para usar while true as informações devem sempre entrar dentro do while ex: while true: input ('qual seu nome')
+
+
+while True:
+    nome_usuario = (input ('Digite qual deseja ser seu nome de usuario? (Voce deve ter no minimo 8 caracteres de nome de usuario)'))
+    if nome_usuario == 'sair':
+        break
+    if len (nome_usuario) <=7:
+        print('voce tem poucos caracteres')
+    elif len (nome_usuario) >= 15:
+        print ('voce tem caracteres demais')
+    else:
+        print('Otimo nome, parabens!') 
+    
+
+          outro teste
+
+print('bem vindo a alessandros account')
+
+nome_usuario = (input ('Digite qual deseja ser seu nome de usuario? (Voce deve ter no minimo 8 caracteres de nome de usuario) '))
+if len (nome_usuario) <=7:
+    print('voce tem poucos caracteres')
+elif len (nome_usuario) >= 15:
+    print('voce tem caracteres demais')
+else:
+    print('Otimo nome, parabens!') 
+
+print('Agora crie sua senha')
+senha = input (' Digite sua senha; ')
+if len (senha) <=7:
+    print('Poucos caracteres')
+elif len (senha) >=15:
+    print('Muitos caracteres')
+else:
+    print('Otima senha')
+
+correto1 = input (f' Seu nome de usuario sera {nome_usuario} e sua senha sera {senha}, Correto? sim/nao ')
+if (correto1) == 'sim':
+    print ('Otimo')
+else:
+    print('Tente novamente')
+
+
+             codigo do chat gpt corrigindo o que eu queria fazer
+
+
+while True:
+
+    nome_usuario = input('Digite qual deseja ser seu nome de usuario? ')
+b
+    if len(nome_usuario) <= 7:
+        print('voce tem poucos caracteres')
+    elif len(nome_usuario) >= 15:
+        print('voce tem caracteres demais')
+    else:
+        print('Otimo nome, parabens!')
+
+    print('Agora crie sua senha')
+
+    senha = input('Digite sua senha: ')
+
+    if len(senha) <= 7:
+        print('Poucos caracteres')
+    elif len(senha) >= 15:
+        print('Muitos caracteres')
+    else:
+        print('Otima senha')
+
+    correto1 = input(
+        f'Seu nome de usuario sera {nome_usuario} e sua senha sera {senha}. Correto? sim/nao '
+    )
+
+    if correto1 == 'sim':
+        print('Otimo')
+        break
+
+    elif correto1 == 'nao':
+        pergunta = input('Perdao pelo erro, deseja tentar novamente? sim/nao ')
+
+        if pergunta == 'nao':
+            break
+
+12/06      teste que eu fiz certo agora
+
+print ('Bem-vindo a Alessandro Account')
+
+while True:
+    dados1 = input('Escolha seu nome de usuario: (lembre se que deve ter no minimo 8 carcteres) ')
+    if len (dados1) <=7:
+        dados1erro = input ('Numero de carcteres insuficiente: Deseja tentar novamente? sim/nao')
+        if dados1erro == 'nao':
+            break
+
+        continue
+
+    dados2 = input ('Agora digite sua senha: (Lembre-se que sua senha deve ter no minimo 8 carcteres) ')
+    if len (dados2) <=7:
+        dados2erro = input ('Numero de caracteres insuficiente: Deseja tentar novamente? sim/nao')
+        if dados2erro == 'nao':
+            break
+
+        continue
+    
+    confirm = input (f'Seu nome de usuario sera {dados1} e sua senha sera {dados2}, esta correto? sim/nao: ')
+    if confirm == 'nao':
+        break
+
+   
+
+    elif confirm == 'sim':
+        print ('Obrigado, sua conta foi criada com sucesso1')
+        break
+
+14/06 ------------
+
+                   testes com while e prototipo de leitor de senha
+
+senha = ''
+while senha != 'alo':
+    senha = input ('Digite a senha correta:')
+print ('Bem vindo')
+    
+
+
+nome = ''
+while nome == '':
+    nome = input ('Digite seu nome: ')
+print (f'Bem vindo {nome}')
+
+
+                    teste com contador usando while
+
+horario = 9
+while horario <= 17:
+    print (horario)
+    horario = horario + 1
+print (' Hora de ver o por do sol ')
+
+    
+                    teste basicode login usuario mais senha
+
+senha = ''
+usuario = ''
+tentativas = 0
+
+while (usuario != 'alessandro' or senha != 'haaashira') and tentativas < 3:
+    usuario = input ('Digite seu usuario: ')
+    senha =  input ('Digite sua senha; ')
+    tentativas +=1
+
+if usuario =='alessandro' and senha =='haaashira':
+    print ('Login feito com sucesso')
+
+else:
+    ('Usuario ou senha incorreto')
+
+
+                 conceito de criação de lista, como localizar e como manipular
+
+precos = [20,50,200]
+print (precos[1])
+
+paises= ['Canada', 'Mexico', 'Eua']
+print (paises [1])
+
+print (paises.index('Canada'))
+
+salarios = [2500,5000,7000]
+salarios_usuario = int(input('Qual seu salario: '))
+salarios.append(salarios_usuario)
+print (salarios)
+
+              calcular valoress de lista neste caso usando exemplo de salario de funcionario
+
+salarios = [2500,900,5000,7500]
+total = 0
+for salario in salarios:
+    total = total + salario
+print (total)
+
+              teste corrigido com gpt pra adicionar a lista
+
+print ('Calculador de salarios')
+
+salarios = []
+
+while True:
+    
+    total = 0
+    salarios_usuario = int (input ('Qual seu salario? '))
+    salarios.append(salarios_usuario)
+    print(salarios)
+    teste = input ('Deseja adicionar mais um salario? sim/nao')
+    if teste == 'nao':
+        break
+    
+
+    continue
+
+                  teste numero fatorial gerador
+
+numero = int(input('Digite o fatorial que deseja calcular: '))
+if numero > 0 and type (numero) == int:
+    fatorial = 1
+    for item in range (1,numero+1):
+        print (f'{fatorial} * {item}')
+        fatorial = fatorial * item
+        print(f'{fatorial}')
+    print (f'O fatorial de {numero} é {fatorial}')
+else:
+    print (' Digite um numero inteiro e positivo')
+
+
+
+           teste comparador de valor com chute do usuario
+
+
+
+import random
+valor_aleatorio = random.randint(1,10)
+acertou = False
+
+while acertou == False:
+    chute = int(input('Chute um numero: '))
+    if chute > valor_aleatorio:
+        print (' Chute um valor mais baixo')
+    elif chute < valor_aleatorio:
+        print('Chute um valor mais alto')
+    else:
+        print ('Voce acertou')
+        acertou = True
+
+
+          teste criar login e senha e realizar login
+
+
+print (' Crie sua conta e faça seu login ')
+criar = True
+
+while criar == True:
+    nome = input ('Digite seu nome de usuario: ')
+    senha = input('Digite sua senha: ')
+    if len (senha) <= 7:
+        print ('Sua senha deve possuir 8 caracteres no minimo, voce sera rederecionado para criar novamente')
+
+        continue
+    else: 
+        confirm = input (f'Seu usuario sera {nome} e sua senha sera {senha}, voce confirma ? sim/nao')
+        if confirm == 'nao':
+            print ('Voce sera redirecionado para tentar novamente')
+
+            continue
+
+            
+    criar = False
+
+print ('Agora faça seu login')
+
+while True:
+    usuario = input ('Digite seu login: ') 
+    senha2 = input ('Digite sua senha: ')
+
+    if usuario != nome or senha2 != senha:
+        print ('Seu usuario ou senha estao errados')
+
+        continue
+    else:
+        print ('Login feito com sucesso')
+    
+
+
+
+
