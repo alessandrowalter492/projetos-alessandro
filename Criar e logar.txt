@@ -1,0 +1,33 @@
+
+print (' Crie sua conta e faça seu login ')
+criar = True
+
+while criar == True:
+    nome = input ('Digite seu nome de usuario: ')
+    senha = input('Digite sua senha: ')
+    if len (senha) <= 7:
+        print ('Sua senha deve possuir 8 caracteres no minimo, voce sera rederecionado para criar novamente')
+
+        continue
+    else: 
+        confirm = input (f'Seu usuario sera {nome} e sua senha sera {senha}, voce confirma ? sim/nao')
+        if confirm == 'nao':
+            print ('Voce sera redirecionado para tentar novamente')
+
+            continue
+
+            
+    criar = False
+
+print ('Agora faça seu login')
+
+while True:
+    usuario = input ('Digite seu login: ') 
+    senha2 = input ('Digite sua senha: ')
+
+    if usuario != nome or senha2 != senha:
+        print ('Seu usuario ou senha estao errados')
+
+        continue
+    else:
+        print ('Login feito com sucesso')

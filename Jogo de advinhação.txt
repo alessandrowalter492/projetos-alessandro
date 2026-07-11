@@ -1,0 +1,27 @@
+print ('Bem vindo ao jogo da adivinhação ')
+tentativa = 0
+import random 
+advinhe = random.randint (1,100)
+
+print ('''Olá
+Estou pensando em um numero de 1 a 100
+consegue advinhar? ''')
+
+chute = int(input('Faça o seu chute: '))
+tentativa = tentativa +1
+while chute != advinhe :
+    
+    
+
+    if chute < advinhe :
+        print (' Seu chute deve ser maior ')
+    elif chute > advinhe :
+        print ('Seu chute deve ser menor')
+
+    
+
+    chute = int(input('Faça o seu chute: '))
+    tentativa = tentativa +1
+
+print (' Voce acertou !!!, voce precisou de', (tentativa), 'tentativas para acertar')
+        
